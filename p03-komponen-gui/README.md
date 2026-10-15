@@ -8,14 +8,14 @@ Mata Kuliah  : PBO 2
 ## 1. Screenshot Form Saat Dijalankan
 
 Tema terang:
-![Tema terang]
+![Tema terang](gambar/Terang.png)
 
 Tema gelap:
-![Tema gelap]
+![Tema gelap](gambar/Gelap.png)
 
 ## 2. Screenshot Tab Design (Navigator)
 
-![Navigator FormTiketTravel]
+![Navigator FormTiketTravel](gambar/Design.png)
 
 
 ## 3. Jawaban Pertanyaan Refleksi G
