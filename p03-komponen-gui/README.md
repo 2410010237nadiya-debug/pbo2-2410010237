@@ -8,17 +8,15 @@ Mata Kuliah  : PBO 2
 ## 1. Screenshot Form Saat Dijalankan
 
 Tema terang:
-![Tema terang](<img width="549" height="338" alt="Mode Terang" src="https://github.com/user-attachments/assets/d2d6c777-165e-4b65-b8ea-4335970cf160" />
-)
+![Tema terang]
 
 Tema gelap:
-![Tema gelap](<img width="566" height="334" alt="Mode Gelap" src="https://github.com/user-attachments/assets/b82ccc75-8551-464a-b303-b8bc7b8eb9d6" />
-)
+![Tema gelap]
 
 ## 2. Screenshot Tab Design (Navigator)
 
-![Navigator FormTiketTravel](<img width="938" height="546" alt="Design dan Navigator" src="https://github.com/user-attachments/assets/a79a2e23-43b8-46e4-acdc-14e20c39dd1c" />
-)
+![Navigator FormTiketTravel]
+
 
 ## 3. Jawaban Pertanyaan Refleksi G
 
