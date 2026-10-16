@@ -32,14 +32,14 @@ Mata Kuliah  : PBO 2
 ## 3. Screenshot FormAnggotaPerpustakaan
 
 Ukuran awal:
-![Ukuran awal](gambar/awal.png)
+![Ukuran awal](Awal.png)
 
 Saat dilebarkan:
-![Dilebarkan](gambar/lebar.png)
+![Dilebarkan](Lebar.png)
 
 ## 4. Screenshot Tab Design (Navigator)
 
-![Navigator](gambar/design.png)
+![Navigator](design.png)
 
 ## 5. Jawaban Eksperimen dan Saran Teman
 
