@@ -20,7 +20,7 @@ Mata Kuliah  : PBO 2
 
 ## 2. Sketsa dan Tabel Rancangan
 
-![Sketsa form](gambar/sketsa.jpg)
+![Sketsa form](Gambar/sketsa.jpg)
 
 | Bagian | Panel | Layout |
 |---|---|---|
@@ -32,14 +32,14 @@ Mata Kuliah  : PBO 2
 ## 3. Screenshot FormAnggotaPerpustakaan
 
 Ukuran awal:
-![Ukuran awal](Awal.png)
+![Ukuran awal](Gambar/Awal.png)
 
 Saat dilebarkan:
-![Dilebarkan](Lebar.png)
+![Dilebarkan](Gambar/Lebar.png)
 
 ## 4. Screenshot Tab Design (Navigator)
 
-![Navigator](design.png)
+![Navigator](Gambar/design.png)
 
 ## 5. Jawaban Eksperimen dan Saran Teman
 
