@@ -20,7 +20,7 @@ Mata Kuliah  : PBO 2
 
 ## 2. Sketsa dan Tabel Rancangan
 
-![Sketsa form](Gambar/sketsa.jpg)
+![Sketsa form](Gambar/Sketsa.png)
 
 | Bagian | Panel | Layout |
 |---|---|---|
