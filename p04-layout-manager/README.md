@@ -62,7 +62,7 @@ Saat dilebarkan:
 |----|-------------|---------------|---------|
 | 1 | Label singkat, jelas, dan sejajar | Ya | Label rata kiri dan singkat |
 | 2 | Isian dikelompokkan dengan judul bagian | Ya | Ada judul "Data Anggota" dan "Kontak" |
-| 3 | Placeholder dipakai untuk isian yang punya format | Ya | NPM, Email, dan Nomor HP belum punya contoh format |
+| 3 | Placeholder dipakai untuk isian yang punya format | Ya | Email, dan Nomor HP sudah memakai placeholder |
 | 4 | Komponen sesuai jenis data | Ya | ComboBox untuk prodi, radio button untuk jenis anggota, checkbox untuk persetujuan, text area untuk alamat |
 | 5 | Tombol utama menonjol dan berada di kanan bawah | Belum | Posisi sudah di kanan bawah, tetapi tombol Daftar belum dibedakan dari Batal |
 | 6 | Jarak antar komponen konsisten | Ya | Jarak antar baris seragam |
