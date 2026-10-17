@@ -69,10 +69,14 @@ Saat dilebarkan:
 | 7 | Form tetap rapi saat jendela dilebarkan dan ditinggikan | Ya | Isian ikut melebar dan tata letak tetap rapi |
 | 8 | Tampilan dibuat dengan JFrame Form dan layout manager, bukan Null Layout atau Absolute Layout | Ya | Memakai BorderLayout, BoxLayout, GridBagLayout, dan FlowLayout |
 
-### Saran perbaikan
-1. Buat tombol Daftar lebih menonjol (warna latar berbeda dan huruf tebal) dibanding tombol Batal.
 
 ## 6. Deklarasi Penggunaan AI
 
-Saya menggunakan Claude untuk membantu memahami GridBagLayout dan
-memperbaiki error pada form. Seluruh kode saya periksa dan jalankan sendiri.
+Saya menggunakan Claude untuk membantu:
+- menyusun draf tabel penilaian Tahap 4 sebagai bahan pembanding,
+- membantu perintah Git untuk mengunggah gambar dan merapikan pesan commit.
+- Saya menggunakan Claude untuk membantu memahami GridBagLayout dan
+- memperbaiki error pada form. Seluruh kode saya periksa dan jalankan sendiri.
+
+Desain form saya buat sendiri di NetBeans. tidak keseluruhan kode dari Claude,saya periksa kode tersebut sendiri,
+saya jalankan sendiri, dan saya sesuaikan dengan form saya.
