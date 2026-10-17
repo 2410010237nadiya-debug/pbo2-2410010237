@@ -327,3 +327,4 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
     private javax.swing.JRadioButton umumRadio;
     // End of variables declaration//GEN-END:variables
 }
+
