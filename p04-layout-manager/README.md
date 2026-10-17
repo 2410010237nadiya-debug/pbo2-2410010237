@@ -20,7 +20,7 @@ Mata Kuliah  : PBO 2
 
 ## 2. Sketsa dan Tabel Rancangan
 
-![Sketsa form](Gambar/sketsa.jpg)
+![Sketsa form](Gambar/Sketsa.png)
 
 | Bagian | Panel | Layout |
 |---|---|---|
@@ -56,7 +56,21 @@ Saat dilebarkan:
 3. Tombol Batal/Simpan di pojok kanan bawah terpotong lebih dulu, disusul isian     yang menyempit dan judul yang terpotong di kanan. Baris itu berfungsi            mengunci ukuran jendela agar tidak lebih kecil dari ukuran awalnya.
 
 ### Saran dari teman (Tahap 4)
-- ...
+## Tahap 4: Saling Menilai
+
+| No | Pemeriksaan | Ya atau Belum | Catatan |
+|----|-------------|---------------|---------|
+| 1 | Label singkat, jelas, dan sejajar | Ya | Label rata kiri dan singkat |
+| 2 | Isian dikelompokkan dengan judul bagian | Ya | Ada judul "Data Anggota" dan "Kontak" |
+| 3 | Placeholder dipakai untuk isian yang punya format | Ya | Email, dan Nomor HP sudah memakai placeholder |
+| 4 | Komponen sesuai jenis data | Ya | ComboBox untuk prodi, radio button untuk jenis anggota, checkbox untuk persetujuan, text area untuk alamat |
+| 5 | Tombol utama menonjol dan berada di kanan bawah | Ya | Posisi sudah di kanan bawah, Tombol Daftar berwarna cyan dan tebal, berada di kanan bawah |
+| 6 | Jarak antar komponen konsisten | Ya | Jarak antar baris seragam |
+| 7 | Form tetap rapi saat jendela dilebarkan dan ditinggikan | Ya | Isian ikut melebar dan tata letak tetap rapi |
+| 8 | Tampilan dibuat dengan JFrame Form dan layout manager, bukan Null Layout atau Absolute Layout | Ya | Memakai BorderLayout, BoxLayout, GridBagLayout, dan FlowLayout |
+
+### Saran perbaikan
+1. Buat tombol Daftar lebih menonjol (warna latar berbeda dan huruf tebal) dibanding tombol Batal.
 
 ## 6. Deklarasi Penggunaan AI
 
