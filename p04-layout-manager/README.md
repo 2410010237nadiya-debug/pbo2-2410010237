@@ -64,7 +64,7 @@ Saat dilebarkan:
 | 2 | Isian dikelompokkan dengan judul bagian | Ya | Ada judul "Data Anggota" dan "Kontak" |
 | 3 | Placeholder dipakai untuk isian yang punya format | Ya | Email, dan Nomor HP sudah memakai placeholder |
 | 4 | Komponen sesuai jenis data | Ya | ComboBox untuk prodi, radio button untuk jenis anggota, checkbox untuk persetujuan, text area untuk alamat |
-| 5 | Tombol utama menonjol dan berada di kanan bawah | Belum | Posisi sudah di kanan bawah, tetapi tombol Daftar belum dibedakan dari Batal |
+| 5 | Tombol utama menonjol dan berada di kanan bawah | Ya | Posisi sudah di kanan bawah, Tombol Daftar berwarna cyan dan tebal, berada di kanan bawah |
 | 6 | Jarak antar komponen konsisten | Ya | Jarak antar baris seragam |
 | 7 | Form tetap rapi saat jendela dilebarkan dan ditinggikan | Ya | Isian ikut melebar dan tata letak tetap rapi |
 | 8 | Tampilan dibuat dengan JFrame Form dan layout manager, bukan Null Layout atau Absolute Layout | Ya | Memakai BorderLayout, BoxLayout, GridBagLayout, dan FlowLayout |
