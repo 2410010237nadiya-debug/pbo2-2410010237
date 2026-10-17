@@ -323,3 +323,4 @@ public class GaleriLayout extends javax.swing.JFrame {
     private javax.swing.JButton westButton;
     // End of variables declaration//GEN-END:variables
 }
+
