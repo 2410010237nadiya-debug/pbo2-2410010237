@@ -265,7 +265,10 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
         batalButton.setText("Batal");
         tombolPanel.add(batalButton);
 
+        daftarButton.setBackground(new java.awt.Color(102, 255, 255));
+        daftarButton.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         daftarButton.setText("Daftar");
+        daftarButton.addActionListener(this::daftarButtonActionPerformed);
         tombolPanel.add(daftarButton);
 
         getContentPane().add(tombolPanel, java.awt.BorderLayout.SOUTH);
@@ -276,6 +279,10 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
     private void hpFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hpFieldActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_hpFieldActionPerformed
+
+    private void daftarButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_daftarButtonActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_daftarButtonActionPerformed
 
     /**
      * @param args the command line arguments
