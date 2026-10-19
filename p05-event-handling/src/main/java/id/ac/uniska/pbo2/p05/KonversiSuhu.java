@@ -70,3 +70,4 @@ public class KonversiSuhu extends javax.swing.JFrame {
     // End of variables declaration//GEN-END:variables
 }
 // P05
+
