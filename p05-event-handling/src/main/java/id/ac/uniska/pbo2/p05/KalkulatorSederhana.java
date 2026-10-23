@@ -24,7 +24,7 @@ public KalkulatorSederhana() {
     hasilLabel.putClientProperty("FlatLaf.styleClass", "h3");
 
     // Cara 2. Lambda ditulis sendiri di konstruktor, setelah initComponents()
-    kaliButton.addActionListener(e -> { System.out.println("kali"); hitung('x'); });
+    kaliButton.addActionListener(e -> hitung('x'));
 
     // Cara 3. Method reference: langsung menunjuk method hapus yang sudah ada
     hapusButton.addActionListener(this::hapus);
@@ -79,7 +79,6 @@ public KalkulatorSederhana() {
         operatorPanel.add(kurangButton);
 
         kaliButton.setText("x");
-        kaliButton.addActionListener(this::kaliButtonActionPerformed);
         operatorPanel.add(kaliButton);
 
         bagiButton.setText("/");
@@ -118,11 +117,6 @@ public KalkulatorSederhana() {
     private void bagiButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bagiButtonActionPerformed
        hitung('/'); // TODO add your handling code here:
     }//GEN-LAST:event_bagiButtonActionPerformed
-
-    private void kaliButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_kaliButtonActionPerformed
-        System.out.println("kali");
-        hitung('x');// TODO add your handling code here:
-    }//GEN-LAST:event_kaliButtonActionPerformed
 
     private void hitung(char operator) {
     try {
