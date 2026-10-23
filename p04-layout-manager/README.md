@@ -39,7 +39,7 @@ Saat dilebarkan:
 
 ## 4. Screenshot Tab Design (Navigator)
 
-![Navigator](Gambar/desian.png)
+![Navigator](Gambar/desain.png)
 
 ## 5. Jawaban Eksperimen dan Saran Teman
 
