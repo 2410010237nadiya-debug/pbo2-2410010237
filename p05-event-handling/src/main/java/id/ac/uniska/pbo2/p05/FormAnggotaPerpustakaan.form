@@ -359,6 +359,7 @@
         <Component class="javax.swing.JButton" name="batalButton">
           <Properties>
             <Property name="text" type="java.lang.String" value="Batal"/>
+            <Property name="toolTipText" type="java.lang.String" value="Kosongkan Isian"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="batalButtonActionPerformed"/>
