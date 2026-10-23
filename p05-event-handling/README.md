@@ -53,5 +53,13 @@ Pemeriksaan pembagi nol diperluas agar % ikut tercakup (sisa bagi dengan nol jug
 ![keluar](Gambar/keluar.png)
 
 ## 7. Deklarasi Penggunaan AI
-(Tulis alat yang dipakai dan untuk apa, atau: "Saya tidak memakai AI.")
+## 7. Deklarasi Penggunaan AI
+
+Alat yang dipakai: Claude (Anthropic).
+
+Digunakan untuk:
+- Contoh kode dialog ringkasan (JOptionPane) dan tombol Batal, lalu saya sesuaikan dengan nama komponen form saya.
+- Membantu memperbaiki error kode dan masalah NetBeans serta Git.
+
+Desain form, tabel pengamatan, dan jawaban eksperimen saya kerjakan sendiri ada sedikit kalimat jawabanya di bantu AI.
 
