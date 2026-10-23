@@ -3,12 +3,12 @@
 ## 1. Tabel Pengamatan Praktikum 2
 | No | Tindakan | Event yang tercatat |
 |----|----------|---------------------|
-| 1 | Arahkan kursor ke tombol, lalu jauhkan | (isi dari log aplikasi) |
-| 2 | Klik tombol Klik saya | |
-| 3 | Centang lalu hapus centang Aktifkan fitur | |
-| 4 | Ganti pilihan dari Pagi menjadi Malam | |
-| 5 | Klik isian, lalu ketik kata "abc" | |
-| 6 | Klik tombol setelah mengetik di isian | |
+| 1 | Arahkan kursor ke tombol, lalu jauhkan | 02 MouseEvent Kursor masuk ke tombol |
+| 2 | Klik tombol Klik saya | 05 ActionEvent tombol diklik  |
+| 3 | Centang lalu hapus centang Aktifkan fitur | 07 itemEvent kotak dicentang/-8 itemEvent centang dihapus |
+| 4 | Ganti pilihan dari Pagi menjadi Malam | 09 itemEvent memilih malam |
+| 5 | Klik isian, lalu ketik kata "abc" | 19 FocusEvent Isian mendapat fokus, 11 keyEvnet mengetik huruf a , 12 keyEvnet mengetik huruf b, 13 keyEvnet mengetik huruf c|
+| 6 | Klik tombol setelah mengetik di isian | FocusEvent Isian kehilangan fokus |
 
 ## 2. Jawaban Eksperimen
 ### Praktikum 3
