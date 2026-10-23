@@ -158,7 +158,7 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
         prodiLabel.setText("Program Studi");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 6;
+        gridBagConstraints.gridy = 5;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
         gridBagConstraints.insets = new java.awt.Insets(6, 0, 6, 12);
         formPanel.add(prodiLabel, gridBagConstraints);
@@ -166,7 +166,7 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
         prodiComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Teknik Informatika", "Sistem Informasi" }));
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 6;
+        gridBagConstraints.gridy = 5;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         gridBagConstraints.weightx = 1.0;
         gridBagConstraints.insets = new java.awt.Insets(4, 0, 4, 0);
@@ -176,7 +176,7 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
         jenisAnggotaLabel.setText("Jenis Anggota");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 4;
+        gridBagConstraints.gridy = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
         gridBagConstraints.insets = new java.awt.Insets(6, 0, 6, 12);
         formPanel.add(jenisAnggotaLabel, gridBagConstraints);
@@ -185,7 +185,7 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
         kontakLabel.setText("Kontak");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 5;
+        gridBagConstraints.gridy = 7;
         gridBagConstraints.gridwidth = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
         gridBagConstraints.insets = new java.awt.Insets(16, 0, 6, 0);
@@ -213,8 +213,6 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
         gridBagConstraints.insets = new java.awt.Insets(6, 0, 6, 12);
         formPanel.add(hpLabel, gridBagConstraints);
-
-        hpField.addActionListener(this::hpFieldActionPerformed);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 9;
@@ -271,7 +269,7 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 4;
+        gridBagConstraints.gridy = 6;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         gridBagConstraints.weightx = 1.0;
         gridBagConstraints.insets = new java.awt.Insets(4, 0, 4, 0);
@@ -300,22 +298,27 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void hpFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hpFieldActionPerformed
-    String jenis = mahasiswaRadio.isSelected() ? "Mahasiswa"
-        : dosenRadio.isSelected() ? "Dosen" : "Umum";
-    JOptionPane.showMessageDialog(this,
-        "NPM: " + npmField.getText().trim() + "\n"
-      + "Nama: " + namaField.getText().trim() + "\n"
-      + "Program Studi: " + prodiComboBox.getSelectedItem() + "\n"
-      + "Jenis Anggota: " + jenis + "\n"
-      + "Email: " + emailField.getText().trim() + "\n"
-      + "Nomor HP: " + hpField.getText().trim() + "\n"
-      + "Alamat: " + alamatTextArea.getText().trim(),
-        "Ringkasan Pendaftaran", JOptionPane.INFORMATION_MESSAGE);// TODO add your handling code here:
-    }//GEN-LAST:event_hpFieldActionPerformed
-
     private void daftarButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_daftarButtonActionPerformed
-        // TODO add your handling code here:
+        String jenis;
+    if (mahasiswaRadio.isSelected()) {
+        jenis = "Mahasiswa";
+    } else if (dosenRadio.isSelected()) {
+        jenis = "Dosen";
+    } else {
+        jenis = "Umum";
+    }
+
+    String ringkasan = "NPM: " + npmField.getText()
+            + "\nNama: " + namaField.getText()
+            + "\nProgram Studi: " + prodiComboBox.getSelectedItem()
+            + "\nJenis Anggota: " + jenis
+            + "\nEmail: " + emailField.getText()
+            + "\nNomor HP: " + hpField.getText()
+            + "\nAlamat: " + alamatTextArea.getText();
+
+    JOptionPane.showMessageDialog(this, ringkasan, "Ringkasan Pendaftaran",
+            JOptionPane.INFORMATION_MESSAGE);
+
     }//GEN-LAST:event_daftarButtonActionPerformed
 
     private void setujuCheckBoxItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_setujuCheckBoxItemStateChanged
@@ -323,7 +326,7 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
     }//GEN-LAST:event_setujuCheckBoxItemStateChanged
 
     private void batalButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_batalButtonActionPerformed
-       // TODO add your handling code here:
+      kosongkan();// TODO add your handling code here:
     }//GEN-LAST:event_batalButtonActionPerformed
 
     private void npmFieldKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_npmFieldKeyReleased
@@ -336,10 +339,11 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
         "Keluar dari aplikasi?", "Konfirmasi", JOptionPane.YES_NO_OPTION);
 if (jawab == JOptionPane.YES_OPTION) {
     dispose();
-}// TODO add your handling code here:
+}
+
     }//GEN-LAST:event_formWindowClosing
 
-    /** Mengosongkan semua isian dan mengembalikan fokus ke NPM. */
+/** Mengosongkan semua isian dan mengembalikan fokus ke NPM. */
 private void kosongkan() {
     npmField.setText("");
     namaField.setText("");
@@ -401,6 +405,6 @@ private void perbaruiJumlahDigit() {
     private javax.swing.JPanel tombolPanel;
     private javax.swing.JRadioButton umumRadio;
     // End of variables declaration//GEN-END:variables
-}
 
+}
 // P05: event handling
