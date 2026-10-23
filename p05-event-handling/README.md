@@ -3,12 +3,12 @@
 ## 1. Tabel Pengamatan Praktikum 2
 | No | Tindakan | Event yang tercatat |
 |----|----------|---------------------|
-| 1 | Arahkan kursor ke tombol, lalu jauhkan | (isi dari log aplikasi) |
-| 2 | Klik tombol Klik saya | |
-| 3 | Centang lalu hapus centang Aktifkan fitur | |
-| 4 | Ganti pilihan dari Pagi menjadi Malam | |
-| 5 | Klik isian, lalu ketik kata "abc" | |
-| 6 | Klik tombol setelah mengetik di isian | |
+| 1 | Arahkan kursor ke tombol, lalu jauhkan | 02 MouseEvent Kursor masuk ke tombol |
+| 2 | Klik tombol Klik saya | 05 ActionEvent tombol diklik  |
+| 3 | Centang lalu hapus centang Aktifkan fitur | 07 itemEvent kotak dicentang/-8 itemEvent centang dihapus |
+| 4 | Ganti pilihan dari Pagi menjadi Malam | 09 itemEvent memilih malam |
+| 5 | Klik isian, lalu ketik kata "abc" | 19 FocusEvent Isian mendapat fokus, 11 keyEvnet mengetik huruf a , 12 keyEvnet mengetik huruf b, 13 keyEvnet mengetik huruf c|
+| 6 | Klik tombol setelah mengetik di isian | FocusEvent Isian kehilangan fokus |
 
 ## 2. Jawaban Eksperimen
 ### Praktikum 3
@@ -35,15 +35,14 @@ Pemeriksaan pembagi nol diperluas agar % ikut tercakup (sisa bagi dengan nol jug
 
   3. Setelah tombol Hapus ditekan, kursor langsung berada di isian pertama       karena method hapus diakhiri dengan pemanggilan         angka1Field.requestFocusInWindow(). Perintah ini meminta fokus keyboard   dipindahkan ke angka1Field, sehingga pengguna bisa langsung mengetik angka baru tanpa mengklik isian terlebih dahulu. Tanpa baris itu, fokus tetap berada di tombol Hapus yang baru diklik.
 
-## 3. Peta Event FormAnggotaPerpustakaan
+## Peta Event FormAnggotaPerpustakaan
 | Komponen | Menu Events | Aksi |
 |----------|-------------|------|
-| setujuCheck | Item: itemStateChanged | Tombol Daftar aktif hanya jika dicentang |
-| batalButton | Action: actionPerformed | Kosongkan isian, fokus ke NPM |
-| daftarButton | Action: actionPerformed | Ringkasan data via JOptionPane |
-| npmField | Key: keyReleased | Label "8 dari 10 digit" |
-| Form (JFrame) | Window: windowClosing | Konfirmasi sebelum keluar |
-
+| setujuCheckBox | Item: itemStateChanged | Tombol Daftar hanya aktif jika dicentang |
+| batalButton | Action: actionPerformed | Kosongkan semua isian dan kembalikan fokus ke NPM |
+| daftarButton | Action: actionPerformed | Tampilkan ringkasan data dengan JOptionPane |
+| npmField | Key: keyReleased | Label menampilkan jumlah digit, misalnya "8 dari 10 digit" |
+| Form (JFrame) | Window: windowClosing | Minta konfirmasi sebelum aplikasi ditutup |
 ## 4. Screenshot Properties > Events (tombol Daftar)
 ![properties](img/properties-daftar.png)
 
