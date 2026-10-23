@@ -80,3 +80,4 @@ Saya menggunakan Claude untuk membantu:
 
 Desain form saya buat sendiri di NetBeans. tidak keseluruhan kode dari Claude,saya periksa kode tersebut sendiri,
 saya jalankan sendiri, dan saya sesuaikan dengan form saya.
+
