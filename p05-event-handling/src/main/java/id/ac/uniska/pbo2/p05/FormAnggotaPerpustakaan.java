@@ -322,16 +322,16 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
     }//GEN-LAST:event_daftarButtonActionPerformed
 
     private void setujuCheckBoxItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_setujuCheckBoxItemStateChanged
-       daftarButton.setEnabled(setujuCheckBox.isSelected()); // TODO add your handling code here:
+       daftarButton.setEnabled(setujuCheckBox.isSelected()); 
     }//GEN-LAST:event_setujuCheckBoxItemStateChanged
 
     private void batalButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_batalButtonActionPerformed
-      kosongkan();// TODO add your handling code here:
+      kosongkan();
     }//GEN-LAST:event_batalButtonActionPerformed
 
     private void npmFieldKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_npmFieldKeyReleased
               perbaruiJumlahDigit();
- // TODO add your handling code here:
+
     }//GEN-LAST:event_npmFieldKeyReleased
 
     private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
