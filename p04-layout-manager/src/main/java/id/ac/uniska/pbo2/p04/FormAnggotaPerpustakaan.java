@@ -265,6 +265,7 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
         batalButton.setText("Batal");
         tombolPanel.add(batalButton);
 
+        daftarButton.setBackground(new java.awt.Color(102, 255, 255));
         daftarButton.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         daftarButton.setText("Daftar");
         daftarButton.addActionListener(this::daftarButtonActionPerformed);
