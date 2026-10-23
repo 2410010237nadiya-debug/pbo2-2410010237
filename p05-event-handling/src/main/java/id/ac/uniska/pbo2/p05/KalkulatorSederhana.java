@@ -177,3 +177,4 @@ private static String rapikan(double nilai) {
     private javax.swing.JButton tambahButton;
     // End of variables declaration//GEN-END:variables
 }
+// P05: event handling
