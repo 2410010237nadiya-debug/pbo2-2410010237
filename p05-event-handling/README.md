@@ -44,7 +44,7 @@ Pemeriksaan pembagi nol diperluas agar % ikut tercakup (sisa bagi dengan nol jug
 | npmField | Key: keyReleased | Label menampilkan jumlah digit, misalnya "8 dari 10 digit" |
 | Form (JFrame) | Window: windowClosing | Minta konfirmasi sebelum aplikasi ditutup |
 ## 4. Screenshot Properties > Events (tombol Daftar)
-![properties](Gambar/properties.png)
+![properties](Gambar/propertis.png)
 
 ## 5. Screenshot Dialog Ringkasan
 ![ringkasan](Gambar/ringkasan.png)
