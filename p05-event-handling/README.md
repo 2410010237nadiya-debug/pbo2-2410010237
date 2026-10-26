@@ -44,14 +44,22 @@ Pemeriksaan pembagi nol diperluas agar % ikut tercakup (sisa bagi dengan nol jug
 | npmField | Key: keyReleased | Label menampilkan jumlah digit, misalnya "8 dari 10 digit" |
 | Form (JFrame) | Window: windowClosing | Minta konfirmasi sebelum aplikasi ditutup |
 ## 4. Screenshot Properties > Events (tombol Daftar)
-![properties](img/properties-daftar.png)
+![properties](Gambar/propertis.png)
 
 ## 5. Screenshot Dialog Ringkasan
-![ringkasan](img/ringkasan.png)
+![ringkasan](Gambar/ringkasan.png)
 
 ## 6. Screenshot Dialog Konfirmasi Keluar
-![keluar](img/konfirmasi-keluar.png)
+![keluar](Gambar/keluar.png)
 
 ## 7. Deklarasi Penggunaan AI
-(Tulis alat yang dipakai dan untuk apa, atau: "Saya tidak memakai AI.")
+## 7. Deklarasi Penggunaan AI
+
+Alat yang dipakai: Claude (Anthropic).
+
+Digunakan untuk:
+- Contoh kode dialog ringkasan (JOptionPane) dan tombol Batal, lalu saya sesuaikan dengan nama komponen form saya.
+- Membantu memperbaiki error kode dan masalah NetBeans serta Git.
+
+Desain form, tabel pengamatan, dan jawaban eksperimen saya kerjakan sendiri ada sedikit kalimat jawabanya di bantu AI.
 
