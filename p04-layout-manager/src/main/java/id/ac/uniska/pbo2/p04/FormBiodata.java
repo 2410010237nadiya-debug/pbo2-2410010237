@@ -51,29 +51,28 @@ public class FormBiodata extends javax.swing.JFrame {
         isiPanel = new javax.swing.JPanel();
         formPanel = new javax.swing.JPanel();
         namaLabel = new javax.swing.JLabel();
-        npmLabel = new javax.swing.JLabel();
-        npmField = new javax.swing.JTextField();
-        prodiLabel = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
+        jLabel3 = new javax.swing.JLabel();
         namaField = new javax.swing.JTextField();
         semesterLabel = new javax.swing.JLabel();
         semesterSpinner = new javax.swing.JSpinner();
-        prodiComboBox = new javax.swing.JComboBox<>();
+        jComboBox1 = new javax.swing.JComboBox<>();
         kontakLabel = new javax.swing.JLabel();
         emailField = new javax.swing.JTextField();
-        emailLabel = new javax.swing.JLabel();
-        hpLabel = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
         hpField = new javax.swing.JTextField();
-        alamatLabel = new javax.swing.JLabel();
-        alamatScrollPane = new javax.swing.JScrollPane();
-        alamatTextArea = new javax.swing.JTextArea();
+        jLabel9 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
         tombolPanel = new javax.swing.JPanel();
-        batalButton = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
         simpanButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Biodata Mahasiswa");
 
-        headerPanel.setBorder(javax.swing.BorderFactory.createEmptyBorder(16, 16, 8, 16));
         headerPanel.setLayout(new javax.swing.BoxLayout(headerPanel, javax.swing.BoxLayout.Y_AXIS));
 
         judulLabel.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
@@ -88,11 +87,10 @@ public class FormBiodata extends javax.swing.JFrame {
         dataDiriLabel.setText("Data Diri");
         headerPanel.add(dataDiriLabel);
 
-        getContentPane().add(headerPanel, java.awt.BorderLayout.NORTH);
+        getContentPane().add(headerPanel, java.awt.BorderLayout.PAGE_START);
 
         isiPanel.setLayout(new java.awt.BorderLayout());
 
-        formPanel.setBorder(javax.swing.BorderFactory.createEmptyBorder(8, 16, 8, 16));
         formPanel.setLayout(new java.awt.GridBagLayout());
 
         namaLabel.setText("Nama Lengkap");
@@ -103,28 +101,28 @@ public class FormBiodata extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(6, 0, 6, 29);
         formPanel.add(namaLabel, gridBagConstraints);
 
-        npmLabel.setText("NPM");
+        jLabel4.setText("NPM");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 1;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
         gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 63);
-        formPanel.add(npmLabel, gridBagConstraints);
+        formPanel.add(jLabel4, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 1;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         gridBagConstraints.weightx = 1.0;
-        gridBagConstraints.insets = new java.awt.Insets(4, 0, 4, 0);
-        formPanel.add(npmField, gridBagConstraints);
+        gridBagConstraints.insets = new java.awt.Insets(3, 0, 4, 0);
+        formPanel.add(jTextField2, gridBagConstraints);
 
-        prodiLabel.setText("Program Studi");
+        jLabel3.setText("Program Studi");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
         gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 14);
-        formPanel.add(prodiLabel, gridBagConstraints);
+        formPanel.add(jLabel3, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 0;
@@ -150,14 +148,14 @@ public class FormBiodata extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(4, 0, 4, 0);
         formPanel.add(semesterSpinner, gridBagConstraints);
 
-        prodiComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Teknik Informatika", "Sistem Informasi" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Teknik Informatika", "Sistem Informasi" }));
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 2;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         gridBagConstraints.weightx = 1.0;
-        gridBagConstraints.insets = new java.awt.Insets(4, 0, 4, 0);
-        formPanel.add(prodiComboBox, gridBagConstraints);
+        gridBagConstraints.insets = new java.awt.Insets(5, 0, 5, 0);
+        formPanel.add(jComboBox1, gridBagConstraints);
 
         kontakLabel.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         kontakLabel.setText("Kontak");
@@ -165,7 +163,7 @@ public class FormBiodata extends javax.swing.JFrame {
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 4;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
-        gridBagConstraints.insets = new java.awt.Insets(16, 0, 6, 0);
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 48);
         formPanel.add(kontakLabel, gridBagConstraints);
 
         emailField.addActionListener(this::emailFieldActionPerformed);
@@ -173,74 +171,84 @@ public class FormBiodata extends javax.swing.JFrame {
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 5;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.weightx = 1.0;
-        gridBagConstraints.insets = new java.awt.Insets(4, 0, 4, 0);
+        gridBagConstraints.weightx = 0.7;
+        gridBagConstraints.weighty = 0.1;
+        gridBagConstraints.insets = new java.awt.Insets(3, 0, 3, 0);
         formPanel.add(emailField, gridBagConstraints);
 
-        emailLabel.setText("Email");
+        jLabel7.setText("Email");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 5;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
         gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 61);
-        formPanel.add(emailLabel, gridBagConstraints);
+        formPanel.add(jLabel7, gridBagConstraints);
 
-        hpLabel.setText("Nomor HP");
+        jLabel8.setText("Nomor HP");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
         gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 29);
-        formPanel.add(hpLabel, gridBagConstraints);
+        formPanel.add(jLabel8, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 6;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         gridBagConstraints.weightx = 1.0;
-        gridBagConstraints.insets = new java.awt.Insets(4, 0, 4, 0);
+        gridBagConstraints.insets = new java.awt.Insets(3, 0, 3, 0);
         formPanel.add(hpField, gridBagConstraints);
 
-        alamatLabel.setText("Alamat");
+        jLabel9.setText("Alamat");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 8;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
         gridBagConstraints.insets = new java.awt.Insets(0, 0, 60, 48);
-        formPanel.add(alamatLabel, gridBagConstraints);
+        formPanel.add(jLabel9, gridBagConstraints);
 
-        alamatTextArea.setColumns(20);
-        alamatTextArea.setRows(5);
-        alamatScrollPane.setViewportView(alamatTextArea);
+        jTextArea1.setColumns(20);
+        jTextArea1.setRows(5);
+        jScrollPane1.setViewportView(jTextArea1);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 8;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         gridBagConstraints.weightx = 1.0;
-        gridBagConstraints.insets = new java.awt.Insets(4, 0, 4, 0);
-        formPanel.add(alamatScrollPane, gridBagConstraints);
-
-        tombolPanel.setBorder(javax.swing.BorderFactory.createEmptyBorder(8, 16, 16, 16));
-        tombolPanel.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT, 8, 0));
-
-        batalButton.setText("Batal");
-        tombolPanel.add(batalButton);
-
-        simpanButton.setText("Simpan");
-        tombolPanel.add(simpanButton);
-
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 9;
-        gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.SOUTH;
-        gridBagConstraints.weightx = 1.0;
-        gridBagConstraints.insets = new java.awt.Insets(0, 129, 4, 4);
-        formPanel.add(tombolPanel, gridBagConstraints);
+        gridBagConstraints.insets = new java.awt.Insets(3, 0, 3, 0);
+        formPanel.add(jScrollPane1, gridBagConstraints);
 
         isiPanel.add(formPanel, java.awt.BorderLayout.NORTH);
 
         getContentPane().add(isiPanel, java.awt.BorderLayout.CENTER);
+
+        jButton1.setText("Batal");
+
+        simpanButton.setText("Simpan");
+
+        javax.swing.GroupLayout tombolPanelLayout = new javax.swing.GroupLayout(tombolPanel);
+        tombolPanel.setLayout(tombolPanelLayout);
+        tombolPanelLayout.setHorizontalGroup(
+            tombolPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(tombolPanelLayout.createSequentialGroup()
+                .addContainerGap(228, Short.MAX_VALUE)
+                .addComponent(jButton1)
+                .addGap(11, 11, 11)
+                .addComponent(simpanButton)
+                .addContainerGap())
+        );
+        tombolPanelLayout.setVerticalGroup(
+            tombolPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, tombolPanelLayout.createSequentialGroup()
+                .addContainerGap(71, Short.MAX_VALUE)
+                .addGroup(tombolPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton1)
+                    .addComponent(simpanButton))
+                .addGap(57, 57, 57))
+        );
+
+        getContentPane().add(tombolPanel, java.awt.BorderLayout.SOUTH);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -258,27 +266,27 @@ public class FormBiodata extends javax.swing.JFrame {
 }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel alamatLabel;
-    private javax.swing.JScrollPane alamatScrollPane;
-    private javax.swing.JTextArea alamatTextArea;
-    private javax.swing.JButton batalButton;
     private javax.swing.JLabel dataDiriLabel;
     private javax.swing.JTextField emailField;
-    private javax.swing.JLabel emailLabel;
     private javax.swing.JPanel formPanel;
     private javax.swing.JPanel headerPanel;
     private javax.swing.JTextField hpField;
-    private javax.swing.JLabel hpLabel;
     private javax.swing.JPanel isiPanel;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextField jTextField2;
     private javax.swing.JLabel judulLabel;
     private javax.swing.JLabel keteranganLabel;
     private javax.swing.JLabel kontakLabel;
     private javax.swing.JTextField namaField;
     private javax.swing.JLabel namaLabel;
-    private javax.swing.JTextField npmField;
-    private javax.swing.JLabel npmLabel;
-    private javax.swing.JComboBox<String> prodiComboBox;
-    private javax.swing.JLabel prodiLabel;
     private javax.swing.JLabel semesterLabel;
     private javax.swing.JSpinner semesterSpinner;
     private javax.swing.JButton simpanButton;
