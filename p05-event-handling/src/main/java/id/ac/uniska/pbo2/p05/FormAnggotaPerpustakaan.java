@@ -284,7 +284,6 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
         tombolPanel.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT, 8, 0));
 
         batalButton.setText("Batal");
-        batalButton.setToolTipText("Kosongkan Isian");
         batalButton.addActionListener(this::batalButtonActionPerformed);
         tombolPanel.add(batalButton);
 
