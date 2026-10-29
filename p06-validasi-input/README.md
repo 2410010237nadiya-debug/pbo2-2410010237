@@ -23,6 +23,10 @@ Peer review diterima dari: **<Nama Teman>**
 | 4  | Font Segoe UI diset manual sehingga bertabrakan dengan `styleClass` FlatLaf, dan keterangan di bawah judul tampil tebal (Konsistensi dan standar). | Menghapus font manual dengan `setFont(null)` pada lima komponen di konstruktor, supaya gaya FlatLaf yang berlaku. | [`jkl3456`](<tautan-commit>) |
 | 5  | Paste huruf ke kolom NPM dan HP lolos dari `keyTyped` (Pencegahan kesalahan). | Menambahkan `DocumentFilter` (`FilterAngka`) pada NPM dan HP, dengan batas 10 dan 13 digit. | [`mno7890`](<tautan-commit>) |
 | 6  | Kolom Nama tidak punya contoh isian dan format HP hanya ada di tooltip (Mengenali, bukan mengingat). | Menambahkan placeholder pada kolom Nama dan memperjelas placeholder HP. | [`pqr1234`](<tautan-commit>) ||
+| 7  | Ada handler `prodiComboBoxFocusLost` yang kosong, dan tidak ada petunjuk bahwa Daftar aktif setelah persetujuan dicentang (Fleksibilitas dan efesiensi). | Menghapus listener dan method kosong di prodiComboBox. Petunjuk diberikan lewat tooltip pada tombol Daftar. | [`stu5678`](<tautan-commit>) |
+| 8  | Keterangan di bawah judul dicetak tebal padahal berwarna redup sehingga terasa berat (Desain estetis dan minimalis). | Menghapus font manual dengan `setFont(null)` sehingga keterangan tampil reguler dan redup (sekalian dengan perbaikan no. 4). | [`jkl3456`](<tautan-commit>) |
+| 9  | Pesan kesalahan tidak ikut berubah saat isian diperbaiki atau dikosongkan (Membantu memperbaiki kesalahan). | Menambahkan `DocumentListener` yang memperbarui pesan secara langsung selama pesan kesalahan sedang tampil. | [`vwx9012`](<tautan-commit>) |
+| 10 | Tata tertib tidak bisa dibaca, Alamat tidak ditandai opsional, dan Nama, Email, Alamat tanpa tooltip (Bantuan dan dokumentasi). | Menambahkan tautan "Baca tata tertib" yang membuka dialog, label "Alamat (opsional)", dan tooltip pada ketiga kolom. | [`yza3456`](<tautan-commit>) |
 
 ## 3. Tangkapan Layar Form dengan Pesan Kesalahan
 
