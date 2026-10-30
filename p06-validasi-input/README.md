@@ -11,7 +11,7 @@
 
 Peer review diterima dari: **<Nama Teman>**
 
-![Lembar peer review](docs/peer-review.jpg)
+![Lembar peer review](gambar/LembarPeerReview.png)
 
 ## 2. Tabel Temuan dan Perbaikan
 
@@ -32,13 +32,13 @@ Peer review diterima dari: **<Nama Teman>**
 
 ## 3. Tangkapan Layar Form dengan Pesan Kesalahan
 
-![Form dengan pesan kesalahan](docs/form-error.png)
+![Form dengan pesan kesalahan](gambarPesan/Kesalahan.png)
 
 Keterangan: <jelaskan kondisi input yang memicu pesan kesalahan, mis. kolom email dikosongkan>
 
 ## 4. Tangkapan Layar Jendela Navigator (Label Pesan)
 
-![Jendela Navigator](docs/navigator.png)
+![Jendela Navigator](gambar/Navigator.png)
 
 Keterangan: <jelaskan label pesan yang tampak pada Navigator>
 
@@ -70,3 +70,15 @@ kode reset yang dijalankan, jadi semua isian tetap seperti semula.
 
 ## 6. Deklarasi Penggunaan AI
 Saya menggunakan (Claude Ai) untuk <keperluan spesifik,  memahami pesan kesalahan>. Seluruh kode dan jawaban telah saya tinjau dan pahami sendiri ada beberapa codenya yang saya masukan ke Ai supaya saya tau apa yang salah dari code saya.
+## Deklarasi Penggunaan AI
+
+Dalam pengerjaan tugas ini saya menggunakan Claude (Anthropic) sebagai alat bantu.
+Rincian penggunaannya:
+
+| Bagian | Bentuk bantuan AI | Peran saya |
+|--------|-------------------|------------|
+| Tabel temuan dan perbaikan | Memeriksa format tabel, salah ketik, dan konsistensi istilah heuristik. | Menentukan isi temuan dan perbaikan, serta memutuskan revisi mana yang dipakai. |
+| Git dan GitHub | Menjelaskan konsep commit, membantu menulis pesan commit, dan memandu mengatasi error `git push` yang ditolak. | Menjalankan semua perintah sendiri dan membuat commit dari pekerjaan saya. |
+| README | Membantu menyusun sintaks Markdown untuk tabel dan gambar. | Menulis isi laporan dan menyiapkan tangkapan layar. |
+
+Seluruh keluaran AI telah saya baca, uji, dan sesuaikan. Saya bertanggung jawab penuh atas isi laporan dan kode yang dikumpulkan.
