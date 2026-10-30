@@ -25,3 +25,4 @@ Baris yang berubah di `initComponents()` adalah baris `setAccelerator` milik `ha
 
 ### Eksperimen 6
 Waktu dijalankan, aplikasinya gagal terbuka dan muncul error `IllegalArgumentException: Cannot set a null TableModel`. Penyebabnya, `initComponents()` memanggil `setModel(model)` di awal konstruktor, sedangkan model baru dibuat setelah itu, jadi saat dipanggil isinya masih null dan JTable menolaknya. Makanya atribut model harus sudah dibuat sejak dideklarasikan.
+
