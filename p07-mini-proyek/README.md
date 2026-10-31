@@ -2,7 +2,12 @@
 # P07 Mini Proyek: Katalog Buku Perpustakaan
 
 ## Video Demo
-[Video Demo Dialog Buku Perpustakaan](video/Katalogbukuperpustakaan.mp4)
+
+https://github.com/user-attachments/assets/61ed6df7-e490-48fb-8892-9176673246e7
+
+[Unduh video demo (mp4)](video/Katalogbukuperpustakaan.mp4)
+
+
 ## Peta Event
 | Komponen | Event | Isi handler |
 |---|---|---|
