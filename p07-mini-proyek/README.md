@@ -1,4 +1,6 @@
 
+Nama : Nadiya Ramadani
+NPM  : 2410010237
 # P07 Mini Proyek: Katalog Buku Perpustakaan
 
 ## Video Demo
