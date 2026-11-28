@@ -44,14 +44,20 @@ Pemeriksaan pembagi nol diperluas agar % ikut tercakup (sisa bagi dengan nol jug
 | npmField | Key: keyReleased | Label menampilkan jumlah digit, misalnya "8 dari 10 digit" |
 | Form (JFrame) | Window: windowClosing | Minta konfirmasi sebelum aplikasi ditutup |
 ## 4. Screenshot Properties > Events (tombol Daftar)
-![properties](img/properties-daftar.png)
+![properties](Gambar/propertis.png)
 
 ## 5. Screenshot Dialog Ringkasan
-![ringkasan](img/ringkasan.png)
+![ringkasan](Gambar/ringkasan.png)
 
 ## 6. Screenshot Dialog Konfirmasi Keluar
-![keluar](img/konfirmasi-keluar.png)
+![keluar](Gambar/keluar.png)
 
 ## 7. Deklarasi Penggunaan AI
-(Tulis alat yang dipakai dan untuk apa, atau: "Saya tidak memakai AI.")
+Saya menggunakan Claude untuk membantu:
+- membantu perintah Git untuk mengunggah gambar dan merapikan pesan commit.
+- Saya menggunakan Claude untuk membantu memahami Code
+- memperbaiki error pada form. Seluruh kode saya periksa dan jalankan sendiri.
+
+Desain form saya buat sendiri di NetBeans. tidak keseluruhan kode dari Claude,saya periksa kode tersebut sendiri,
+saya jalankan sendiri, dan saya sesuaikan dengan form saya.
 
